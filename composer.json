@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "drechsler-development/class-library": "v1.0.17",
+    "drechsler-development/class-library": "v1.0.18",
     "phpmailer/phpmailer": "^v6.6.0",
     "monolog/monolog": "^2.6",
     "paypal/paypal-checkout-sdk": "*",
