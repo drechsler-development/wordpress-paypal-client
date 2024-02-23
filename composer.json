@@ -1,0 +1,39 @@
+{
+  "name": "drechsler-development/wordpress-paypal-client",
+  "description": "A simple PayPal client for WordPress",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "ronny drechsler-hildebrandt",
+      "email": "info@drechsler-development.de"
+    }
+  ],
+  "require": {
+    "drechsler-development/class-library": "v1.0.17",
+    "phpmailer/phpmailer": "^v6.6.0",
+    "monolog/monolog": "^2.6",
+    "paypal/paypal-checkout-sdk": "*",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-curl": "*",
+    "ext-gd": "*",
+    "ext-fileinfo": "*",
+    "ext-exif": "*",
+    "ext-bcmath": "*",
+    "ext-zip": "*",
+    "ext-zlib": "*",
+    "ext-ftp": "*",
+    "ext-mbstring": "*",
+    "ext-ctype": "*",
+    "ext-simplexml": "*",
+    "ext-mysqli": "*",
+    "ext-imap": "*",
+    "ext-soap": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DD\\": "src/DD"
+    }
+  }
+}
